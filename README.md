@@ -17,8 +17,9 @@ so, i decided to make it by hand. I wrote a switch case for three differtent siz
 
 Next Problem i had was to find a way using the variable gameSize outside the class Game. So i made the var Global.
 
-Another Problem was to use the this.state methode, but after a lot of TryAndError i understood how it works and was able to use it -> for exmaple for the tictactoe boolean
-i relized that you need to call it by this.stat.abc
+Another Problem was to use the this.state methode, but after a lot of TryAndError i understood how it works and was able to use it
+-> for exmaple for the tictactoe boolean or the setSize and changeVariety methods
+i relized that you need to call it by this.state.abc
 
 finding a way to check if someone has won, wasnt a problem but it needed some time.
 Drawing of how i created the methods:
