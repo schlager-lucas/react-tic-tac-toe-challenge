@@ -6,7 +6,7 @@ https://reactjs.org/tutorial/tutorial.html
 then watched a video about debbuging in VSCdoe
 // => https://www.youtube.com/watch?v=PJeNReqyH88
 
-biggest Problem i had, was to find a way how you can dynamically render classes
+biggest Problem i had, was to find a way how you can dynamically render <div className "">
 // => in the Code 
 ```
 <div className="board-row">
