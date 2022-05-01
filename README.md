@@ -23,4 +23,8 @@ i relized that you need to call it by this.state.abc
 
 finding a way to check if someone has won, wasnt a problem but it needed some time.
 Drawing of how i created the methods:
+
 ![image](https://user-images.githubusercontent.com/82469143/166156161-f8b84056-87ff-4f00-9f5a-e916b1a8bc25.png)
+
+![image](https://user-images.githubusercontent.com/82469143/166156520-20f3b024-89fc-4e94-8e1f-f41d0d060a88.png)
+
