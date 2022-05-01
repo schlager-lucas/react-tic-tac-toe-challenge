@@ -5,13 +5,13 @@ watched a video about debbuging in VSCdoe
 
 biggest Problem i had, was to find a way how u can dynamiclly render classes
 // => in the Code 
-
+```
 <div className="board-row">
    {this.renderSquare(0)}
    {this.renderSquare(1)}
    {this.renderSquare(2)}
 </div>
-
+```
 i only found a way to render a list dynamiclly but not how to render the whole class "board-row"
 so i dicided to make it by hand. And wrote a switch case for three differtent sizes of the game.
 
