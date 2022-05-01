@@ -15,7 +15,7 @@ biggest Problem i had, was to find a way how you can dynamically render <div cla
    {this.renderSquare(2)}
 </div>
 ```
-i only found a way to render a list dynamically (on stackoverflow or how to render with conditions on youtube: https://www.youtube.com/watch?v=4oCVDkb_EIs&t=376s) but not how to render the whole: class "board-row"
+i only found a way to render a list dynamically (on stackoverflow or how to render with conditions on youtube: https://www.youtube.com/watch?v=4oCVDkb_EIs&t=376s) but not how to render the whole: <div className "board-row" because I would have needed it n times with n elements
 
 so, i decided to make it by hand. I wrote a switch case for three differtent sizes of the game.
 
