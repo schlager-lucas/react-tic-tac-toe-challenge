@@ -278,17 +278,17 @@ function calculateWinner(squares) {
 
 function calculateWinnerBigFields(squares) {
   for (var i = 0; i < squares.length; i++) {
-      if (i % gameSize == 0,1 && i < 2*gameSize) {
+      if ((i % gameSize === 0 || i % gameSize === 1) && i < 2*gameSize) {
         if (checkPosDiag(i, squares)) {
             return squares[i];
         }
       } 
-      if (i % gameSize === gameSize-1,gameSize-2 && i < 2*gameSize) {
+      if ((i % gameSize === gameSize-1 || i % gameSize === gameSize-2) && i < 2*gameSize) {
         if (checkNegDiag(i, squares)) {
             return squares[i];
         }
       } 
-      if (i % gameSize === 0,1) {
+      if (i % gameSize === 1 || i % gameSize === 0) {
         if (checkHorizontal(i, squares)) {
             return squares[i];
         }
